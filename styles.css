@@ -1,14 +1,15 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 nav ul {
     margin: 0;
+    /* background: linear-gradient(to right, #ae8625, #f7ef8a, #d2ac47, #edc967); */
     list-style-type: none;
     padding: 0;
-    background-color: #333;
+    background-color: #f5f5dc;
     overflow: hidden;
     display: flex;
     justify-content: space-around;
@@ -20,7 +21,7 @@ nav li {
 
 nav li a {
     display: block;
-    color: white;
+    color: #ae8625;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -46,7 +47,7 @@ nav li a:hover::before {
 }
 
 nav li a:hover {
-    color: #ff6347;
+    color: #d2ac47;
 }
 
 section {
