@@ -235,7 +235,7 @@ section {
 
 #main .center-row .logo svg {
     width: 550px;
-    height: 300px;
+    height: auto;
 }
 
 #main .center-row .social-media {
@@ -733,7 +733,7 @@ section {
     /* Main styles */
     #main .center-row .logo svg {
         width: 500px;
-        height: 250px;
+        height: auto;
     }
 
     #main #icon2, #main #icon5, #main #icon1-vertical, #main #icon6-vertical {
@@ -770,7 +770,7 @@ section {
     /* Main styles */
     #main .center-row .logo svg {
         width: 450px;
-        height: 200px;
+        height: auto;
     }
 
     #main .center-row ul {
@@ -877,7 +877,7 @@ section {
 
     #main .center-row .logo svg {
         width: 480px;
-        height: 230px;
+        height: auto;
     }
 
     /* Services section styles */
@@ -915,7 +915,7 @@ section {
     /* Main styles */
     #main .center-row .logo svg {
         max-width: 500px;
-        height: 250px;
+        height: auto;
     }
 
     #main .center-row ul {

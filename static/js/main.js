@@ -1,24 +1,27 @@
 function logoAnimation() {
-    var path1 = document.getElementById('myPath1');
+    var path1 = document.getElementById('path1');
     var length1 = path1.getTotalLength();
 
     path1.style.strokeDasharray = length1;
     path1.style.strokeDashoffset = length1;
 
-    var path2 = document.getElementById('myPath2');
+    var path2 = document.getElementById('path2');
     var length2 = path2.getTotalLength();
 
     path2.style.strokeDasharray = length2;
     path2.style.strokeDashoffset = length2;
 
-    var path3 = document.getElementById('myPath3');
+    var path3 = document.getElementById('path3');
     var length3 = path3.getTotalLength();
 
     path3.style.strokeDasharray = length3;
     path3.style.strokeDashoffset = length3;
 
-    var path4 = document.getElementById('myPath4');
-    path4.style.fill = 'transparent';
+    var text1 = document.getElementById('text1');
+    text1.style.fill = 'transparent';
+
+    var ellipse1 = document.getElementById('ellipse1');
+    ellipse1.style.fill = 'transparent';
 
     path1.getBoundingClientRect();
     path1.style.transition = path1.style.WebkitTransition = 'stroke-dashoffset 2s ease-in-out';
@@ -29,13 +32,18 @@ function logoAnimation() {
     path3.style.strokeDashoffset = '0';
 
     path1.addEventListener('transitionend', function () {
-        path2.getBoundingClientRect();
-        path2.style.transition = path2.style.WebkitTransition = 'stroke-dashoffset 0.5s ease-in-out';
-        path2.style.strokeDashoffset = '0';
+        ellipse1.style.transition = 'fill 0.5s';
+        ellipse1.style.fill = '#ae8625';
 
-        path2.addEventListener('transitionend', function () {
-            path4.style.transition = 'fill 0.5s';
-            path4.style.fill = '#ae8625';
+        ellipse1.addEventListener('transitionend', function () {
+            path2.getBoundingClientRect();
+            path2.style.transition = path2.style.WebkitTransition = 'stroke-dashoffset 0.5s ease-in-out';
+            path2.style.strokeDashoffset = '0';
+
+            path2.addEventListener('transitionend', function () {
+                text1.style.transition = 'fill 0.5s';
+                text1.style.fill = '#ae8625';
+            });
         });
     });
 }
@@ -50,7 +58,7 @@ function imagesAnimation() {
     }
 }
 
-function responsiveDesign() {
+function responsive() {
     var icon2 = document.querySelector("#main #icon2");
     var icon3 = document.querySelector("#main #icon3");
     var icon4 = document.querySelector("#main #icon4");
@@ -185,7 +193,7 @@ function animateHeader() {
 window.onload = function () {
     logoAnimation();
     imagesAnimation();
-    responsiveDesign();
+    responsive();
     updateElementPosition();
     smoothScrollingOnClick();
     createGallery();
