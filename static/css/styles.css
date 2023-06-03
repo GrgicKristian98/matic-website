@@ -235,7 +235,7 @@ section {
 
 #main .center-row .logo svg {
     width: 550px;
-    height: auto;
+    height: 300px;
 }
 
 #main .center-row .social-media {
@@ -367,6 +367,7 @@ section {
  ***********************************************/
 
 #services .grid-row {
+    margin-top: 50px;
     display: grid;
     grid-template-columns: 45% 55%;
 }
@@ -733,7 +734,7 @@ section {
     /* Main styles */
     #main .center-row .logo svg {
         width: 500px;
-        height: auto;
+        height: 250px;
     }
 
     #main #icon2, #main #icon5, #main #icon1-vertical, #main #icon6-vertical {
@@ -770,7 +771,7 @@ section {
     /* Main styles */
     #main .center-row .logo svg {
         width: 450px;
-        height: auto;
+        height: 200px;
     }
 
     #main .center-row ul {
@@ -877,7 +878,7 @@ section {
 
     #main .center-row .logo svg {
         width: 480px;
-        height: auto;
+        height: 230px;
     }
 
     /* Services section styles */
@@ -915,7 +916,7 @@ section {
     /* Main styles */
     #main .center-row .logo svg {
         max-width: 500px;
-        height: auto;
+        height: 250px;
     }
 
     #main .center-row ul {
