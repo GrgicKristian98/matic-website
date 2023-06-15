@@ -279,7 +279,7 @@ section {
 #main #icon1 {
     width: 100px;
     height: 100px;
-    rotate: 30deg;
+    rotate: -30deg;
     margin-top: 150px;
     margin-left: 80px;
 }
@@ -326,7 +326,7 @@ section {
 #main #icon1-vertical {
     width: 100px;
     height: 100px;
-    rotate: 30deg;
+    rotate: -30deg;
     margin-top: 20px;
 }
 
