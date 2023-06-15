@@ -420,6 +420,9 @@ section {
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    max-height: 900px;
+    padding-bottom: 40px;
 }
 
 #services .grid-row .services-wrapper .services-box {
@@ -433,7 +436,6 @@ section {
     display: inline-block;
     font-size: 25px;
     color: #ae8625;
-    border-bottom: 1px solid #ae8625;
     margin-bottom: 0;
 }
 
@@ -457,8 +459,9 @@ section {
 }
 
 #services .grid-row .services-wrapper .services-box .services-table th {
-    background-color: #ae8625;
-    color: #e1c884;
+    background-color: white;
+    color: #ae8625;
+    font-weight: bolder;
     text-align: left;
 }
 
