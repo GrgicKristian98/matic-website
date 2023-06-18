@@ -1,4 +1,11 @@
 function logoAnimation() {
+    var svg = document.getElementById('mySvg');
+
+    if(svg.classList.contains('hidden')) {
+        svg.classList.remove('hidden');
+    }
+    svg.classList.add('visible');
+
     var path1 = document.getElementById('path1');
     var length1 = path1.getTotalLength();
 
