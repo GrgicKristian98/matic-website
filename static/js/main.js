@@ -197,7 +197,7 @@ function animateHeader() {
 }
 
 
-window.onload = function () {
+document.addEventListener('DOMContentLoaded', function () {
     logoAnimation();
     imagesAnimation();
     responsive();
@@ -205,6 +205,6 @@ window.onload = function () {
     smoothScrollingOnClick();
     createGallery();
     animateHeader();
-}
+});
 
 $(window).scroll(updateElementPosition);
