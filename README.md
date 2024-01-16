@@ -1,1 +1,2 @@
-# matic-website
+# Frizerstvo Matić
+This repository hosts the code for a static one-page website created for a hairdresser business. The website is built using HTML, CSS, and JavaScript, offering a clean, visually appealing, and user-friendly interface. Visitors can learn about the hairdresser’s services, view the price list, and get contact information. The website is optimized for performance and accessibility, ensuring a smooth browsing experience. Access the live site at https://www.frizerstvomatic.si/.
