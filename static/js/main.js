@@ -177,7 +177,7 @@ function createGallery() {
     var settings = jQuery.extend(options);
 
     for (var i = 1; i <= 30; i++) {
-        settings.items.push({src: 'static/img/gallery/gallery_image' + i + '.jpg'});
+        settings.items.push({src: 'static/img/gallery/gallery_image' + i + '.webp'});
     }
 
     jQuery("#nanogallery2").nanogallery2(settings);
