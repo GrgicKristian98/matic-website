@@ -406,7 +406,7 @@ section {
     position: relative;
     width: 100%;
     min-height: 1000px;
-    background-image: url("../img/barber_tools.jpg");
+    background-image: url("../img/barber_tools.webp");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
