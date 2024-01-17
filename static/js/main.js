@@ -126,7 +126,7 @@ function updateElementPosition() {
     }
 
     scrollEffect('#image5', 30, 0.2);
-    scrollEffect('#image6', 82, 0.5);
+    scrollEffect('#image6', 75, 0.5);
 }
 
 function smoothScrollingOnClick() {
