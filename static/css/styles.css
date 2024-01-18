@@ -462,14 +462,15 @@ section {
     align-items: center;
 }
 
-#services .grid-row .services-wrapper .services-box p {
+#services .grid-row .services-wrapper .services-box h1 {
     display: inline-block;
     font-size: 25px;
     color: #ae8625;
     margin-bottom: 0;
+    font-weight: normal;
 }
 
-#services .grid-row .services-wrapper .services-box p .bordered-text {
+#services .grid-row .services-wrapper .services-box h1 .bordered-text {
     font-size: 22px;
     color: #ae8625;
     border-bottom: 1px solid #ae8625;
